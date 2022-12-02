@@ -1,13 +1,12 @@
 import Navbar from './components/Navbar';
-
-import './App.css';
+import Hero from './components/Hero';
 
 function App() {
   return (
     <div className="bg-[#184770]">
       <Navbar />
+      <Hero />
       <div className="h-screen"></div>
-      {/* <Hero /> */}
       {/* <Listings /> */}
       {/* <Actions /> */}
       {/* <Stickers /> */}

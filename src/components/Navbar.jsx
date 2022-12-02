@@ -6,7 +6,10 @@ import logo from '../assets/house.png';
 
 const Navbar = () => {
   const buttons = [
-    { title: 'Buy', underline: '-bottom-[1.3rem]' },
+    {
+      title: 'Buy',
+      underline: '-bottom-[1.3rem] bg-[#e20112] ',
+    },
     { title: 'Sell', underline: '-bottom-[1.3rem]' },
     { title: 'Rent', underline: '-bottom-[1.3rem]' },
     { title: 'Mortgage', underline: '-bottom-[1.3rem]' },
@@ -42,6 +45,7 @@ const Navbar = () => {
                 title={button.title}
                 border={button.border}
                 underline={button.underline}
+                btnunderline={button.btnunderline}
               />
             ))}
           </ul>
