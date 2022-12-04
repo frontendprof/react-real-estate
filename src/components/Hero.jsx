@@ -9,8 +9,8 @@ const Hero = () => {
     { title: 'RENT' },
     { title: 'SELL' },
     { title: 'PRE-APPROVAL' },
-    { title: 'JUST SOLD', css: 'hidden sm:inline-flex' },
-    { title: 'HOME VALUE', css: 'hidden sm:inline-flex' },
+    { title: 'JUST SOLD', css: 'hidden sm:block' },
+    { title: 'HOME VALUE', css: 'hidden sm:block' },
   ];
   return (
     <div className="h-[25rem] sm:h-[27rem] flex bg-red-400 overflow-hidden">
